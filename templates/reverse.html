@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reversed text</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            color: black;
+            margin-left: 250px;
+        }
+        p{
+            margin-left: 250px;
+            font-family: 'Rubik Iso', sans-serif;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Original text has {{ lenwords }} words:</h1>
+    <p>{{ usertext }}</p>
+    <h1>Your Reversed text:</h1>
+    <p>{{ reversedtext }}</p>
+
+</body>
+</html>
